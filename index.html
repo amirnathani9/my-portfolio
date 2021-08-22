@@ -14,17 +14,16 @@
     
     <nav class="navigation nav-container">
         <div class="nav-brand brand-border">Portfolio</div>
-        <ul class="list-non-bullet nav-pills >
-            <li class="list-item-inline">
-                <a href="index.html">Home</a>
-             </li>
-            <li class="list-item-inline">
-                <a href="project.html">Projects</a>
-             </li>
-             <li class="list-item-inline">
-                <a href="blogs.html">Blogs</a>
-             </li>
-        </ul>
+        <div class="topnav" id="myTopnav">
+            
+            <a class="" href="/index.html">Home</a>
+            <a href="/project.html">Projects</a>
+            <a href="/blogs.html">Blogs</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa  fa-bars"></i>
+            </a>
+         
+        </div>
     </nav>
 
     <header class="main-profile">
@@ -84,6 +83,17 @@
             </li>
         </ul>
     </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
 </html>
 
