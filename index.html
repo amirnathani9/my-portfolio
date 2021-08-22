@@ -4,75 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Aamir Nathani | Portfolio </title>
 </head>
 <body>
-    <nav>
-        <div>Portfolio</div>
-        <ul>
-            <li>
-                <a href="">Home</a>
+
+    
+    <nav class="navigation nav-container">
+        <div class="nav-brand brand-border">Portfolio</div>
+        <ul class="list-non-bullet nav-pills >
+            <li class="list-item-inline">
+                <a href="index.html">Home</a>
              </li>
-            <li>
-                <a href="">Projects</a>
+            <li class="list-item-inline">
+                <a href="project.html">Projects</a>
              </li>
-             <li>
-                <a href="">Blogs</a>
+             <li class="list-item-inline">
+                <a href="blogs.html">Blogs</a>
              </li>
         </ul>
     </nav>
 
-    <header>
-        <img src="/images/mypic.svg" alt="Aamir Nathani">
-        <h1>Hi, I am Aamir Nathani</h1>
-        <h2>A Frontend Developer</h2>
+    <header class="main-profile">
+        <img src="/images/profile.jpg" class="profile-img" alt="Aamir Nathani">
+        <h1>Hi, I am <span class="profile-heading"> Aamir Nathani</span></h1>
+        <h2>A <span class="profile-heading">Frontend</span> Web Developer</h2>
     </header>
 
-    <section>
-        <div>
+    <section class="section primary-section">
+        <div class="container-center">
             <h2>About</h2>
-            <p>I'm beginner Frontend Developer completed Bachelor of Computer Engineering in 2021.</p>
-            <p>Technologies I'm familiar with are Html, Css, Bootstrap, Javascript, Basic ReactJs, Python.</p>
+            <p>I'm beginner Frontend Developer completed Bachelor of Computer Engineering in 2021.<br>Technologies I'm familiar with are Html, Css, Bootstrap, Javascript, Basic ReactJs, Python.</p>
 
         </div>
     </section>
-
-    <section>
-        <div>
+    <br>
+    <section class="section secondary-section">
+        <div class="container-center">
             <h2>Projects</h2>
             <p>Project-based learning is a must to learn new things very quickly. I believe if you want to learn to program, then you have to build as many projects. Here you can see my projects are hosted online with source code.</p>
-            <button onclick="window.location.href=">View Projects</button>
+                <div class="btn-center">
+                    <button class="secondary-btn" onclick="window.location.href='project.html';">View Projects</button>
+                </div>
         </div>
     </section>
-
-    <section>
-        <div>
+    <br>
+    <section class="section primary-section">
+        <div class="container-center">
             <h2>Blogs</h2>
             <p>I have written some blogs.Have a look!</p>
-            <button onclick="window.location.href=">Read Blogs</button>
-            
+            <div class="btn-center">
+                <button class="primary-btn" onclick="window.location.href='blogs.html';">Read Blogs</button>
+            </div>
         </div>
     </section>
-
-    <footer>
-        <div>Connect With Me</div>
-        <ul>
-            <li>
+    <br>
+    <br>
+<hr>
+    <footer class="list-non-bullet footer">
+        <div class="footer-line">Connect With Me</div>
+        <ul class="social-pills">
+            <li class="list-item-inline">
                 <a href="https://www.linkedin.com/in/aamirnathani/" target="  _blank " class="fa fa-2x fa-linkedin-square pr-4 social-logo " aria-hidden="true ">
                 </a>
             </li>
-            <li>
+            <li class="list-item-inline">
                 <a href="https://www.facebook.com/astusarchitects" target=" _blank " class="fa fa-2x fa-twitter-square pr-4 social-logo" aria-hidden="true">
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/amirnathani9" target="_blank " class="fa fa-2x fa-github-square pr-4 social-logo" aria-hidden="true ">
+            <li class="list-item-inline">
+                <a href="https://github.com/amirnathani9" target=" _blank " class="fa fa-2x fa-github-square pr-4 social-logo" aria-hidden="true ">
                 </a>
             </li>
-            <li>
-                <a href="mailto:amirnathani9@gmail.com" target="_blank " class="fa fa-2x fa-envelope-o pr-4 social-logo" aria-hidden="true ">
+            <li class="list-item-inline">
+                <a href="mailto:amirnathani9@gmail.com" target=" _blank " class="fa fa-2x fa-envelope-o pr-4 social-logo" aria-hidden="true ">
                 </a>
             </li>
         </ul>

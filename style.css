@@ -13,37 +13,168 @@ body {
     background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 1rem 5rem;
+    margin: 1rem;
+    
 }
 
+.navigation{
+    color: white;
+}
 
+.navigation .nav-brand {
+    font-size:xx-large;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
 
+.navigation .brand-border{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 3px solid var(--primary-color);
+    display: block;
+    max-width: 170px;
+}
 
+.list-non-bullet {
 
+    list-style: none;
+    padding-inline-start: 0px;
+}
 
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
+.navigation .nav-pills {
+    text-align: right;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
 
+.nav-container {
+        display:flex;
+        justify-content:space-between;
+        align-items:center; 
+}
 
+.main-profile {
+    padding:2rem;
+    text-align: center;
+}
 
+.profile-img {
+    max-width: 80%;
+    width: 300px;
+    border-radius: 2rem;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
 
+.profile-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
 
+.main-profile .profile-heading{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 2rem;
+}
 
+.section {
+    padding: 2rem;
+    box-sizing: border-box;
 
+}
 
+.section h2{
+    text-align: center;
+}
 
+.section .container-center {
+    max-width: 600px;
+    margin: auto;
+    
+}
 
+.primary-section{
+    color:white;    
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 1000px;
+    margin: auto;   
+}
 
+.secondary-section {
+    color:var(--primary-color);    
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    display: block;
+    max-width: 1000px;
+    margin: auto;   
+}
 
+.btn-center{
+    margin: 0;
+    text-align: center;   
+}
 
+.secondary-btn{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 3px solid var(--primary-color);
+    font-size: large;
+    padding: 0.5rem;
+    background-color:black;
+}
 
+.primary-btn{
+    color: white;
+    border-radius: 0.5rem;
+    border: 3px solid white;
+    font-size: large;
+    padding: 0.5rem;
+    background-color:black;
+}
 
+.primary-btn:hover{
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    background-color: black;
+}
 
+.secondary-btn:hover{
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+}
 
+.footer-line {
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 0.5rem;
+}
 
-
+.footer .social-pills {
+    text-align: center;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
 
 .social-logo {
     color: white;
+}
+
+hr {
+    border: 1px solid white;
 }
