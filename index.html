@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Aamir Nathani | Portfolio </title>
 </head>
-<body>
 
-    
-    <nav class="navigation nav-container">
-        <div class="nav-brand brand-border">Portfolio</div>
-        <div class="topnav" id="myTopnav">
-            
-            <a class="" href="/index.html">Home</a>
-            <a href="/project.html">Projects</a>
-            <a href="/blogs.html">Blogs</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa  fa-bars"></i>
-            </a>
-         
-        </div>
+<body>
+    <nav>
+        <div class="logo"><a href="/index.html">Portfolio</a></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/project.html">Projects</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <a href="https://www.linkedin.com/in/aamirnathani/" target=" _blank "><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="https://twitter.com/AAMIR12855467" target=" _blank "><i class="fa fa-twitter-square"></i></a>
+                <a href="https://github.com/amirnathani9" target=" _blank "><i class="fa fa-github-square"></i></a>
+            </span>
+        </ul>
     </nav>
 
     <header class="main-profile">
@@ -35,7 +38,8 @@
     <section class="section primary-section">
         <div class="container-center">
             <h2>About</h2>
-            <p>I'm beginner Frontend Developer completed Bachelor of Computer Engineering in 2021.<br>Technologies I'm familiar with are Html, Css, Bootstrap, Javascript, Basic ReactJs, Python.</p>
+            <p>I'm beginner Frontend Developer completed Bachelor of Computer Engineering in 2021.<br>Technologies I'm
+                familiar with are Html, Css, Bootstrap, Javascript, Basic ReactJs, Python.</p>
 
         </div>
     </section>
@@ -43,10 +47,12 @@
     <section class="section secondary-section">
         <div class="container-center">
             <h2>Projects</h2>
-            <p>Project-based learning is a must to learn new things very quickly. I believe if you want to learn to program, then you have to build as many projects. Here you can see my projects are hosted online with source code.</p>
-                <div class="btn-center">
-                    <button class="secondary-btn" onclick="window.location.href='project.html';">View Projects</button>
-                </div>
+            <p>Project-based learning is a must to learn new things very quickly. I believe if you want to learn to
+                program, then you have to build as many projects. Here you can see my projects are hosted online with
+                source code.</p>
+            <div class="btn-center">
+                <button class="secondary-btn" onclick="window.location.href='project.html';">View Projects</button>
+            </div>
         </div>
     </section>
     <br>
@@ -61,39 +67,34 @@
     </section>
     <br>
     <br>
-<hr>
+    <hr>
     <footer class="list-non-bullet footer">
         <div class="footer-line">Connect With Me</div>
         <ul class="social-pills">
             <li class="list-item-inline">
-                <a href="https://www.linkedin.com/in/aamirnathani/" target="  _blank " class="fa fa-2x fa-linkedin-square pr-4 social-logo " aria-hidden="true ">
+                <a href="https://www.linkedin.com/in/aamirnathani/" target=" _blank "
+                    class="fa fa-2x fa-linkedin-square pr-4 social-logo " aria-hidden="true ">
                 </a>
             </li>
             <li class="list-item-inline">
-                <a href="https://www.facebook.com/astusarchitects" target=" _blank " class="fa fa-2x fa-twitter-square pr-4 social-logo" aria-hidden="true">
+                <a href="https://twitter.com/AAMIR12855467" target=" _blank "
+                    class="fa fa-2x fa-twitter-square pr-4 social-logo" aria-hidden="true">
                 </a>
             </li>
             <li class="list-item-inline">
-                <a href="https://github.com/amirnathani9" target=" _blank " class="fa fa-2x fa-github-square pr-4 social-logo" aria-hidden="true ">
+                <a href="https://github.com/amirnathani9" target=" _blank "
+                    class="fa fa-2x fa-github-square pr-4 social-logo" aria-hidden="true ">
                 </a>
             </li>
             <li class="list-item-inline">
-                <a href="mailto:amirnathani9@gmail.com" target=" _blank " class="fa fa-2x fa-envelope-o pr-4 social-logo" aria-hidden="true ">
+                <a href="mailto:amirnathani9@gmail.com" target=" _blank "
+                    class="fa fa-2x fa-envelope-o pr-4 social-logo" aria-hidden="true ">
                 </a>
             </li>
         </ul>
     </footer>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
-</html>
 
+</html>
