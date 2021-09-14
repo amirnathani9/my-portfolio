@@ -20,9 +20,6 @@ body {
 .navigation{
     color: white;
 }
-
-
-
 .list-non-bullet {
 
     list-style: none;
@@ -33,10 +30,6 @@ body {
     display: inline;
     padding: 0rem 0.5rem;
 }
-
-/* .navigation .nav-pills {
-    text-align: right;
-} */
 
 a{
     color: white;
@@ -102,7 +95,8 @@ a{
     border: 1px solid var(--primary-color);
     display: block;
     max-width: 1000px;
-    margin: auto;   
+    margin: auto;  
+    margin-bottom: 2rem; 
 }
 
 .secondary-section {
@@ -112,6 +106,7 @@ a{
     display: block;
     max-width: 1000px;
     margin: auto;   
+    margin-bottom: 2rem; 
 }
 
 .btn-center{
