@@ -55,6 +55,8 @@ a{
     object-fit: cover;
     margin: auto;
     display: block;
+    border: 2px solid var(--primary-color);
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .profile-heading {
